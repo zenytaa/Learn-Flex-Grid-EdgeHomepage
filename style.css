@@ -10,7 +10,7 @@ body {
 
 .nav-container {
   display: grid;
-  border: dashed;
+  /* border: dashed; */
   grid-template-columns: 1fr 1fr;
   font-size: 1.5rem;
   height: 10vh;
@@ -21,7 +21,7 @@ body {
 
 .left {
   display: flex;
-  border: dashed green;
+  /* border: dashed green; */
   justify-content: start;
   gap: 20px;
 }
@@ -40,7 +40,7 @@ body {
 
 .right {
   display: flex;
-  border: dashed green;
+  /* border: dashed green; */
   justify-content: end;
   gap: 20px;
   flex-shrink: 1;
@@ -65,14 +65,14 @@ body {
 
 .bar {
   display: flex;
-  border: dashed brown;
+  /* border: dashed brown; */
   width: 100%;
   justify-content: center;
 }
 
 .card-bar {
   display: flex;
-  border: 5px dashed grey;
+  /* border: 5px dashed grey; */
   width: 500px;
   height: 35px;
   margin: 55px;
