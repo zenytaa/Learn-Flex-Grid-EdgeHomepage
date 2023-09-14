@@ -1,0 +1,131 @@
+body {
+  background-color: #f7f7f7;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  /* border: black solid; */
+  margin: 0px;
+}
+
+.nav-container {
+  display: grid;
+  /* border: dashed; */
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.5rem;
+  height: 10vh;
+  /* border: red solid; */
+  padding: 5px 15px;
+}
+
+.left {
+  display: flex;
+  /* border: dashed green; */
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  background-color: #f7f7f7;
+  border: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-color: #f7f7f7;
+  border: 0;
+}
+
+.right {
+  display: flex;
+  /* border: dashed green; */
+  justify-content: end;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* border: dashed magenta; */
+  align-items: center;
+  font-size: 2rem;
+  /* height: 40vh; */
+}
+
+.card-logo {
+  display: block;
+  width: 220px;
+  /* border: dashed; */
+  margin-bottom: 10px;
+}
+
+.card-bar {
+  display: flex;
+  width: 43%;
+  height: 45px;
+  margin: 55px 0px;
+  background-color: white;
+  color: #828282;
+  border: 5px;
+  border-radius: 22px;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.card-icon {
+  height: 30px;
+  align-self: center;
+  padding: 0px 10px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px dashed green; */
+  gap: 45px;
+}
+
+.item {
+  display: flex;
+  height: 80px;
+  width: 100px;
+  /* background-color: red; */
+  padding-top: 20px;
+  align-items: start;
+  justify-content: center;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+}
+
+.item-logo {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 30%;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.09);
+}
+
+.item-title {
+  font-size: 16px;
+}
